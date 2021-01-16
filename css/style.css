@@ -1,0 +1,26 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 250px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .custom-logo{
+    height: 20px;  
+  }
+  .tm-social{
+    width: 30px;
+    height: 30px;
+}
+.center{
+  text-align: center;
+  font-style: italic;
+}
+.justify{
+  text-align: justify;
+}
+
+  
