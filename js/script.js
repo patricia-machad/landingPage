@@ -9,11 +9,10 @@ por Seletor: querySelector()
 
 let nome = window.document.getElementById('nome')
 let email = document.querySelector('#email')
-let assunto = document.querySelector('#assunto')
+let assunto = document.querySelector('#text')
 let nomeOk = false
 let emailOk = false
 let assuntoOk = false
-let mapa = document.querySelector('#mapa')
 
 nome.style.width = '100%'
 email.style.width = '100%'
@@ -65,15 +64,4 @@ function send(){
     } else{
         alert('Preencha o formulario corretamente antes de enviar')
     }
-}
-
-function mapaZoom(){
-    mapa.style.width = '500px'
-    mapa.style.height = '350px'
-}
-
-function mapaNormal(){
-    mapa.style.width = '400px'
-    mapa.style.height = '250px'
-    
 }
