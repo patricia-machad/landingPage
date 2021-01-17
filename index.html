@@ -40,13 +40,13 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" id="about-tab" href="#about">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="extra-tab" href="#extra">Extra</a>
+                        <a class="nav-link" href="#extra">Extra</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contac">Contact us</a>
+                        <a class="nav-link" href="#contact">Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -54,7 +54,7 @@
     </nav>
 
     <header>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel slide" data-ride="carousel" id="home">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -108,7 +108,7 @@
             </a>
         </div>
     </header>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="about">
         <div class="container">
             <h1 class="display-4"> Leonardo DiCaprio</h1>
             <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quibusdam quisquam et
@@ -122,6 +122,7 @@
                 molestiae assumenda id ipsa, beatae magni eum tempora! Voluptas consequatur doloribus assumenda. </p>
         </div>
     </div>
+
     <!--CARDS-->
     <div class="container">
         <div class="card-deck">
@@ -173,25 +174,19 @@
             </div>
         </div>
 
-
-
-
-
         <!--/CARDS-->
 
         <!--Video-->
-        <div class="row mt-5 mb-5">
+        <div class="row mt-5 mb-5" id="extra">
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2uobYrvtmVU"></iframe>
             </div>
         </div>
 
-
         <!--/Video-->
 
-
         <!--Formulário de contato-->
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center" id="contact">
             <div class="col-md-12">
                 <form>
                     <div class="form-group" id='txtNome'>

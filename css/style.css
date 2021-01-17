@@ -22,5 +22,10 @@
 .justify{
   text-align: justify;
 }
+.card:hover{
+  transform: scale(1.1);
+  border-left: 0px;
+  border-color: rgb(0, 0, 0);
+}
 
 
